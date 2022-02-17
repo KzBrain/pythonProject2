@@ -14,3 +14,23 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#print('hello world')
+
+#
+#age = 5
+#if age > 18:
+    #print("обследование")
+   # print('идите в кабинет')
+#if age < 18:
+   # print('поликлиника')
+
+#
+
+num = 1234567
+count = 0
+while num > 0:
+    num = num // 10
+    count += 1
+    if count > 4:
+       break
+    print(count,num)
